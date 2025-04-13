@@ -1,0 +1,211 @@
+/* Déclaration des polices personnalisées */
+@font-face {
+    font-family: 'ibm'; 
+    src: url('assets/fonts/ibm.ttf') format('truetype'); /* Chemin vers le fichier de police */
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+.custom-title {
+    font-family: 'ibm', sans-serif; /* Utilisation de la police IBM-Logo */
+    font-weight: bold; 
+    font-size: 2.5rem; /* Ajustez la taille selon vos besoins */
+}
+
+@font-face {
+    font-family: 'modern'; 
+    src: url('assets/fonts/small LCD Sign.ttf') format('truetype'); /* Chemin vers le fichier de police */
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center; /* Aligne verticalement les éléments */
+}
+
+
+#clock {
+    margin-right: 20x; /* Ajustez la valeur selon vos besoins */
+}
+
+#calendar {
+    margin-left: 15px; /* Ajustez la valeur selon vos besoins */
+}
+
+
+
+.navbar-nav .nav-item {
+    margin-right: 50px; /* Ajustez la valeur selon vos préférences */
+}
+.custom-dropdown {
+    
+    background-color: #b3e6b3 !important; /* Vert pâle */
+}
+
+.custom-dropdown .dropdown-item {
+    color: black !important; /* Texte noir */
+}
+
+.custom-dropdown .dropdown-item:hover {
+    background-color: #81c784 !important; /* Vert légèrement plus foncé au survol */
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Assurez-vous que la barre de navigation est au-dessus des autres éléments */
+}
+
+.lead {
+    font-family: 'modern', sans-serif; /* Utilisation de la police IBM-Logo */
+    font-weight: bold; 
+    font-size: 1.5rem; /* Ajustez la taille selon vos besoins */
+}
+
+/* Ajouter une image de fond qui prend toute la page */
+    body {
+        background-image: url('assets/img/monsite1.jpg'); /* Chemin de l'image */
+        background-size: cover; /* Pour que l'image couvre toute la page */
+        background-position: center; /* Centrer l'image */
+        background-repeat: no-repeat; /* Ne pas répéter l'image */
+        min-height: 100vh; /* Prendre toute la hauteur de la fenêtre */
+        color: white; /* Couleur du texte pour améliorer la lisibilité sur un fond sombre */
+        padding-bottom: 50px; /* Ajustez la valeur en fonction de la hauteur de votre footer */
+    }
+    
+/* Changer la couleur de fond de l'en-tête */
+header {
+    background-color: rgba(0, 123, 255, 0.5); /* Couleur de fond avec transparence */
+    padding: 50px 0; /* Espacement supérieur et inférieur */
+}
+
+/* Personnaliser la couleur des boutons */
+.btn-primary {
+    background-color: #28a745; /* Vert */
+    border-color: #28a745;
+}
+
+/* Ajouter une ombre aux cartes */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project-image {
+    width: 100%; /* Prend la largeur de la carte */
+    height: 200px; /* Hauteur fixe pour toutes les images */
+    max-height:200px;
+    object-fit: cover; /* Maintient le ratio d'aspect en recadrant l'image si nécessaire */
+}
+.caroussel-section {
+    background-color: transparent; /* Fond de la section transparent */
+}
+
+.carousel {
+    margin: 0 auto; /* Centre le carrousel dans la section */
+    max-width: 800px; /* Ajustez la largeur maximale selon vos besoins */
+}
+
+.carousel-inner img {
+    display: block; /* Assurez-vous que les images sont affichées comme blocs */
+    margin: 0 auto; /* Centre les images horizontalement */
+}
+
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.045); /* Légende avec fond semi-transparent, optionnel */
+    padding: 10px; /* Ajoutez un peu de rembourrage autour du texte */
+    border-radius: 5px; /* Arrondir les coins de la légende */
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px; /* Ajustez la largeur selon vos besoins */
+    height: 50px; /* Ajustez la hauteur selon vos besoins */
+    top: 50%; /* Centrer verticalement */
+    transform: translateY(-50%); /* Ajustement pour centrer correctement */
+}
+
+.carousel-control-prev img,
+.carousel-control-next img {
+    width: 100%; /* Assurez-vous que l'image occupe toute la largeur du bouton */
+    height: auto; /* Maintient le ratio d'aspect de l'image */
+}
+.image-display {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image-display img {
+    max-width: 100%; /* Limite la largeur de l'image */
+    max-height: 80vh; /* Limite la hauteur à 80% de la hauteur de la fenêtre */
+    height: auto; /* Conserve le ratio d'aspect */
+}
+
+/* Style pour le pied de page */
+.label-bold {
+    font-weight: bold;
+}
+.input-gray {
+    background-color: #f0f0f0; /* Gris clair */
+    transition: background-color 0.3s ease; /* Transition douce */
+}
+
+.input-gray:focus {
+    background-color: #87CEEB; /* Bleu ciel */
+    outline: none; /* Supprime le contour par défaut du navigateur */
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    position: fixed;
+    bottom: 0; /* Positionner le footer en bas de la page */
+    left: 0; /* S'assurer qu'il commence à gauche */
+    width: 100%; /* Prendre toute la largeur */
+    margin: 0; /* Éliminer les marges pour un ajustement parfait */
+    padding: 10px 0; /* Ajuster le rembourrage selon vos préférences */
+    z-index: 1000; /* S'assurer qu'il reste au-dessus d'autres éléments */
+}
+ /* Style du titre */
+ .titre-3d {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #28a745; /* Vert Bootstrap */
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0px #093d1e, 
+                 6px 6px 0px rgba(0, 0, 0, 0.3);
+    animation: flotter 2s infinite alternate ease-in-out;
+}
+
+/* Animation */
+@keyframes flotter {
+    0% {
+        transform: translateY(0);
+        text-shadow: 3px 3px 0px #0a512c, 
+                     6px 6px 5px rgba(0, 0, 0, 0.3);
+    }
+    100% {
+        transform: translateY(-10px);
+        text-shadow: 3px 3px 0px #28a745, 
+                     6px 6px 10px rgba(0, 0, 0, 0.5);
+    }
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-grid img:hover {
+    transform: scale(1.1);
+}
