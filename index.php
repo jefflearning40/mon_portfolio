@@ -14,7 +14,7 @@
         <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <img src="assets/img/logo.png" alt="Logo" class="img-fluid" style="max-width: 80px; height: auto;" class="d-inline-block align-top me-2">
+        <img src="assets/img/logoafec.webp" alt="Logo" class="img-fluid" style="max-width: 80px; height: auto;" class="d-inline-block align-top me-2">
         <a class="navbar-brand text-warning" href="#">Mon Portfolio</a>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
