@@ -66,6 +66,10 @@ $codePersonnel = isset($_SESSION['code']) ? $_SESSION['code'] : ''; // Récupér
                     <textarea class="form-control input-gray" name="message" id="message" rows="4" required></textarea>
                 </div>
             </div>
+            <div class="check confidentialité">
+                <input type="checkbox" id="ok_rule" name="ok_rule" />
+                <label for="ok_rule">En cochant vous accepter les <a href="">regles de confidentialité</a> liées a ce site</label>
+            </div>
             <div class="text-center">
                 <button type="submit" class="btn btn-primary">Envoyer</button>
             </div>
